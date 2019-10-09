@@ -1,0 +1,23 @@
+#***sum of n numbers***
+#using while loop
+
+n=int(input("enter your number"))
+sum=0
+i=0
+while i<=n:
+    sum = sum + i
+    i = i + 1
+
+print('the result is:',sum)
+
+
+
+
+#easy way to solve using for loop
+''''''
+n=int(input("enter a number"))
+sum=0
+for x in range(1,n+1,1):
+    sum=sum+x
+print('the total sum is:',sum)
+''''''
